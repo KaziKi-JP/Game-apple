@@ -51,7 +51,7 @@
 
 ## プレイはこちら / Play the Game
 
- [ゲームをプレイする / Play Now](https://kaziki-jp.github.io/Game-apple/)
+ [ゲームをプレイする / Play Now](https://kaziki-jp.github.io/Game-apple/about.html/)
 
 ---
 
