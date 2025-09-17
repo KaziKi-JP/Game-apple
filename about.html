@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>りんごを取れ！ / Catch the Apples!</title>
+  <style>
+    /* Reset & base */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    a {
+      color: #e63946;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Container */
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #e63946;
+      margin-bottom: 0.5rem;
+      font-size: 2.5rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 2rem 0;
+    }
+
+    ul {
+      list-style: inside disc;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #ddd;
+    }
+
+    /* Button-like link */
+    .btn-play {
+      display: inline-block;
+      background-color: #e63946;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 1.2rem;
+      box-shadow: 0 4px 10px rgba(230, 57, 70, 0.4);
+      transition: background-color 0.3s ease;
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .btn-play:hover {
+      background-color: #b8323c;
+      box-shadow: 0 6px 15px rgba(184, 50, 60, 0.6);
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container {
+        padding: 1.5rem 1.5rem;
+        margin: 1rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p, ul li {
+        font-size: 1rem;
+      }
+
+      .btn-play {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>りんごを取れ！ / Catch the Apples!</h1>
+
+    <p><strong>りんごを取れ！</strong> は Scratch で作られた、猫を操作してりんごを集めるアクションゲームです。<br />
+    <strong>Catch the Apples!</strong> is an action game built with Scratch where you control a cat to catch falling apples.</p>
+
+    <hr />
+
+    <h2>ゲーム概要 / Game Overview</h2>
+    <ul>
+      <li>← → キー または ボタンで猫を移動 / Move the cat with ← → keys or buttons</li>
+      <li>＋ボタンでスピードアップ / Press + button to move faster</li>
+      <li>赤いりんご：+1点 / Red Apple: +1 point</li>
+      <li>金のりんご：+3点 / Golden Apple: +3 points</li>
+      <li>紫のりんご：-4点 / Purple Apple: -4 points</li>
+      <li>右上の赤い数字が最高得点 / The red number in the top right is the highest score.</li>
+      <li>右下の白い数字が現在の得点 / The white number in the bottom right is the current score.</li>
+    </ul>
+
+    <hr />
+
+    <h2>技術情報 / Tech Stack</h2>
+    <ul>
+      <li>使用ツール / Built with: <strong>Scratch</strong></li>
+      <li>公開方法 / Deployed on: <strong>GitHub Pages</strong></li>
+    </ul>
+
+    <hr />
+
+    <h2>プレイはこちら / Play the Game</h2>
+    <p><a href="https://kaziki-jp.github.io/Game-apple/" target="_blank" rel="noopener" class="btn-play">ゲームをプレイ / Play Now</a></p>
+
+    <hr />
+
+    <h2>ライセンス / License</h2>
+    <p>このプロジェクトは <a href="LICENSE">MIT License</a> の下で公開されています。<br />
+      This project is licensed under the <a href="LICENSE">MIT License</a>. Attribution is required.</p>
+
+    <hr />
+
+    <h2>フィードバック歓迎 / Feedback Welcome</h2>
+    <p>バグの報告、改善提案、感想など、ぜひお聞かせください。<br />
+      We welcome bug reports, improvement ideas, and your feedback!</p>
+
+    <hr />
+
+    <footer>
+      <p>©copyright 2025 KaziKi-JP</p>
+    </footer>
+  </div>
+</body>
+</html>
