@@ -52,7 +52,8 @@
 ## プレイはこちら / Play the Game
 
  [ゲームをプレイする / Play Now](https://kaziki-jp.github.io/Game-apple/about.html)
-
+ [sb3形式ゲームファイル　/ sb3 format game file](made-by-scratchりんごを取れ！.sb3)
+ 
 ---
 
 ## ライセンス / License
